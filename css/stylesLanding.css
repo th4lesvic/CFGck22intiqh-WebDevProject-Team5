@@ -621,7 +621,7 @@ input[id="radio-3"]:checked ~ .glider
 }
 .communitiesSection
 {
-    height: 125px;
+    height: 200px;
     width: 750px;
     margin-left: 523px;
     margin-right: 160px;
@@ -631,9 +631,12 @@ input[id="radio-3"]:checked ~ .glider
     background-color: rgba(228,146,115,0.8);
     border-radius: 10px;
 }
-.communitiesSection p
+.titleCommunities h3
 {
-    font-size: 1.25rem;
+    margin-left: 532px;
+    padding-left: 8px;
+    padding-top: 16px;
+    padding-bottom: 8px;
 }
 .communitiesSection a
 {
@@ -645,4 +648,8 @@ input[id="radio-3"]:checked ~ .glider
 {
     color:#F2F3F4;
     text-decoration: none;
+}
+.communitiesSection span
+{
+    color: #000000;
 }
