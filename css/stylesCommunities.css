@@ -1,0 +1,117 @@
+.secondaryNavbar
+{
+  background: #E49273;
+  color: #000000;
+  height: 80px;
+  width: 100%;
+  padding: 20px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.secondaryNavbar .container
+{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0;
+  max-width: none;
+}
+.secondaryNavbar ul , li
+{
+  display: flex;
+  gap: 32px;
+}
+.secondaryNavbar li, a, a:hover
+{
+  text-decoration: none;
+}
+.secondaryNavbar a
+{
+  color: #000000;
+  font-weight:bold;
+  font-style: normal; 
+}
+.secondaryNavbar a:hover
+{
+  color:#F2F3F4;
+  text-decoration: none;
+}
+#navItemDisabled a:hover
+{
+  pointer-events: none;
+  cursor: none;
+  color: #000000;
+}
+
+.secondaryFooter 
+{
+  display: flex;
+  justify-content: center;
+  background-color: #E49273;
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.secondaryFooter h5
+{
+  display: flex;
+  top: 40%;
+  bottom: 40.61%;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font-size: 1rem;
+}
+.secondaryFooter u
+{
+  font-style: italic;
+  border-bottom: 1px dotted #000000;
+  text-decoration: none;
+}
+.secondaryfooter a
+{
+  margin: 5px;
+  text-decoration: none!important;
+  color: #000000;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.secondaryFooter a:hover
+{
+  color: #fff;
+}
+.secondaryFooter .container
+{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0;
+  max-width: none;
+}
+.footerAboutLink, .inlineList, .popup
+{
+  display: flex;
+  flex-direction: start;
+  justify-content: center;
+  align-items: center;
+}
+.secondaryFooter .social-icon 
+{
+  display: inline-flex; 
+  width: 50px;
+  height: 50px;
+  color:#E49273 ;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 50%;
+}
+.secondaryFooter .social-icon:hover 
+{
+  color: #fff;
+  background-color: #7180AC;
+}

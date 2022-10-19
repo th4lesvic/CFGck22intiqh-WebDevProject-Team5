@@ -1,0 +1,648 @@
+.goBackLanding
+{
+    margin-top: 16px;
+    margin-bottom: 8px;
+    margin-left: 160px;
+}
+.goBackLanding input
+{
+    height: 40px;
+    width: 100px;
+    font-size: 1rem;
+    align-content: center;
+    color: #ffffff;
+    border: none;
+    background-color: #083A8D;
+    border-radius: 20px;  
+}
+.searchContainer
+{
+    width: 1112px;
+    height: 200px;
+    
+    gap: 16px;
+}
+.navTab 
+{
+    height: 50px;
+    width: 160px;
+    background-color:#7180AC;
+    border-radius: 10px 10px 0 0;
+    align-items: center;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+#myTabs li
+{
+    margin-right: 16px;
+}
+.navTabLink 
+{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 27.24px;
+    padding: 13px 10px;
+    display:flex;
+    text-align: start;
+    align-items: center;
+}
+.navTab a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.navTab a:hover
+{
+    color: #293462;
+    text-decoration: none;
+}
+.tabContent
+{
+    height: 150px;
+    background-color: rgb(43,69,112,0.95);
+    border-radius: 0 10px 10px 10px;
+    box-shadow: 0px 2.5px rgb(0, 0, 0, 0.50)
+}
+.searchBoxes
+{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+}
+.searchBox
+{
+    font-size: 0.8rem;
+    margin-left: 32px;
+}
+.inputLabel
+{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #F2F3F4;
+    align-content: center;
+    margin-top: 46px;
+  
+}
+.inputContainer
+{
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 32px;
+    background-color: #F2F3F4;;
+    align-items: center;
+    align-content: center;
+    width: 200px;
+    height: 56px;
+}
+.inputField
+{
+    border: none;
+    margin: none;
+    background-color: #F2F3F4;
+}
+input[type="text"]
+{
+    outline:none;
+
+}
+input[type="date"]::after
+{
+    content: "\25BC";
+    color:#00006e;
+    padding: 0 5px;
+}
+input[type="date"]:hover:after 
+{
+    color: #293462;
+}
+input[type="date"]::-webkit-calendar-picker-indicator 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    color: transparent;
+    background: transparent;
+}
+input[type="date"]::-webkit-inner-spin-button 
+{
+    z-index: 1;
+}
+#searchBtnFake
+{
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 74px;
+    margin-bottom: 22px;
+    margin-left: 16px;
+    background-color: #083A8D;
+    align-items: center;
+    align-content: center;
+    border-radius: 20px;
+    border: none;
+    width: 140px;
+    height: 40px;
+    font-size: 1rem;
+    font-style: bolder;
+}
+.travelSection
+{
+    width: 1112px;
+    margin-left: 160px;
+    margin-bottom: 32px;
+}
+.travelPacks
+{
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 32px;
+}
+.cardInfo
+{
+    background: #ffffff;
+    border-radius:10px;
+    box-shadow: 0 4px 4px 0 rgb(0, 0, 0, 0.25);
+    height: 550px;
+    width: 540px;
+    margin-bottom: 16px;
+    margin-top: 16px;    
+}
+.cardInfo:hover > div
+{
+    opacity: 0.8;
+}
+.cardInfo img
+{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 272px;
+    transition: 5s ease;
+    backface-visibility: hidden;
+    border-radius: 5px;   
+}
+.cardInfo p
+{
+    font-weight: bolder;
+    font-size: 1.25rem;
+    padding: 16px 10px 10px 56px;  
+}
+.detailFlight
+{
+    padding-bottom: 46px;
+    cursor: pointer;
+}
+
+.detailFlight p
+{
+    font-weight: lighter;
+    font-size: 0.8rem;  
+}
+.detailFlight span
+{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.detailFlight a
+{
+    padding-left: 380px;
+    font-size: 1rem;
+    font-weight: bolder;
+
+}
+.detailFlight a:hover
+{
+    color: #083A8D;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.04rem;   
+}
+.lisbonLeftSection
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-left: 160px;
+    margin-bottom: 8px;
+    overflow-y: auto;
+    max-height: 800px;
+    float: left;
+}
+.cardInfoSmall
+{
+    background: #ffffff;
+    border-radius:10px;
+    box-shadow: 0 4px 4px 0 rgb(0, 0, 0, 0.25);
+    height: 312px;
+    width: 320px;
+    margin-bottom: 0.5px;
+    margin-top: 0.5px; 
+}
+#lisbonFakeSelectedCard
+{
+    box-shadow: 0 4px 4px 0 #0004e4af;
+}
+.cardInfoSmall img
+{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 128px;
+    transition: 5s ease;
+    backface-visibility: hidden;
+    border-radius: 5px;     
+}
+.cardInfoSmall p
+{
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 0.5px 0px 0.1px 16px;
+    margin: 2px 0.5;  
+}
+.detailFlightSmall
+{
+    padding-bottom: 0.1px;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-bottom: 0.5;
+    margin-left: 4px;
+}
+.detailFlightSmall p
+{
+    font-weight: lighter;
+    font-size: 0.64rem;
+}
+.detailFlightSmall span
+{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.detailFlightSmall a
+{
+    padding-left: 210px;
+    font-size: 0.64rem;
+    font-weight: bolder;
+}
+.detailFlightSmall a:hover
+{
+    color: #083A8D;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.8rem;   
+}
+span.size-56
+{
+    font-size: 56px;
+    font-variation-settings: 'OPSZ' 56;
+    color: #000000b6; 
+}
+.btn-circle.btn-xl 
+{
+    width: 100px;
+    height: 70px;
+    padding: 10px 16px;
+    margin-top: 24px;
+    margin-left:32px;
+    border-radius: 35px;
+    border: 2px;
+    font-size: 24px;
+    line-height: 1.33;
+    background-color: #A8D0DB;
+    cursor:not-allowed;
+}
+#lisbonFakeSummary
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: start;
+}
+.lisbonTextSummary p
+{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 1.25rem;
+    line-height: 21px;    
+}
+.lisbonTextSummary span
+{
+    color: #000000;
+    font-weight: 700;
+    
+ }
+#arrowRotateminus180
+{
+    transform: rotate(-180deg);
+}
+#lisbonFakeFlight
+{
+    padding-top: 24px;
+    padding-left: 44px;
+}
+#lisbonFakeDate1
+{
+    padding-top: 24px;
+    padding-left: 222px;
+}
+#lisbonFakeDate2
+{
+    padding-top: 24px;
+    padding-left: 44px;
+    padding-right: 45px;
+}
+.lisbonRightSection
+{
+    height: 500px;
+    width: 750px;
+    border-radius: 20px;
+    background-color: #F1F2F8;
+    margin-left: 523px;
+    margin-right: 160px;
+}
+.sliderContainer
+{
+    position: relative;
+    left: 0;
+    top:16px;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sliderTabs
+{
+    display: flex;
+    padding: 0.75rem;
+    background-color: #FFFFFF;
+    border-radius: 99px;
+    box-shadow: 0 0 1px 0 rgba(#185ee0, 0.15), 0 6px 12px 0 rgba(#185ee0, 0.15);
+}
+.sliderTabs *
+{
+    z-index: 2;
+}
+.sliderTabs input
+{
+    text-align: center;
+}
+input[type="radio"] 
+{
+	display: none;
+}
+.sliderTab {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	height: 54px;
+	width: 200px;
+	font-size: 1.25rem;
+	font-weight: 500;
+	border-radius: 99px;
+	cursor: pointer;
+	transition: color 0.15s ease-in;
+}
+input[type="radio"]:checked + label 
+{
+    color: #0d0de7;
+}
+input[id="radio-1"]:checked ~ .glider 
+{
+	transform: translateX(0);
+}
+input[id="radio-2"]:checked ~ .glider 
+{
+	transform: translateX(100%);
+}
+input[id="radio-3"]:checked ~ .glider 
+{
+	transform: translateX(200%);
+}
+.glider {
+	position: absolute;
+	display: flex;
+    z-index: 1;
+	height: 54px;
+	width: 200px;
+    background-color:#e6eef9;
+	border-radius: 99px;
+	transition: 0.25s ease-out;
+}
+@media (max-width: 700px) 
+{
+	.sliderTabs 
+    {
+		transform: scale(0.6);
+	}
+}
+.cardInfoLarge
+{
+    background: #ffffff;
+    border-radius:10px;
+    box-shadow: 0 4px 4px 0 rgb(0, 0, 0, 0.25);
+    height: 184px;
+    width: 590px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    margin-left: 80px;
+}
+.cardInfoLarge img
+{
+    opacity: 1;
+    display: block;
+    height: 120px;
+    transition: 5s ease;
+    backface-visibility: hidden;
+    border-radius: 0 0px 10px 10px;   
+}
+.cardInfoLarge p
+{
+    font-weight: bolder;
+    font-size: 1.25rem;
+    padding: 0px 0px 0px 16px; 
+}
+.detailFlight p
+{
+    font-weight: lighter;
+    font-size: 0.8rem;
+    padding-top: 16px;  
+    padding-left: 12px;
+}
+.detailFlight span
+{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.detailFlightList
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#imgInfoCardLarge
+{
+    margin-left: -30px;
+}
+.detailFlightList ul
+{
+    margin-left: -50px;
+}
+
+#detailFlightLarge
+{
+    padding-bottom: 0;
+}
+#detailFlightPrice
+{
+    padding-left: 480px;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.paymentMethodBoxes
+{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 32px;
+}
+.boxPay
+{
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgb(0, 0, 0, 0.25);
+    width:154px;
+    height: 128px;
+}
+.iconPay
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 16px;
+}
+.boxPay p
+{
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 16px;
+}
+#ccPay
+{
+    box-shadow: 0 4px 4px 0 #0004e4af;
+}
+#applePayIcon img
+{
+    width: 150px;
+    height: 60px;
+    margin-top:20px ;
+}
+.fakeInvoice
+{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 24px;
+}
+.billingForms
+{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 24px;
+    gap: 48px;
+}  
+#billingFormsSection
+{
+    height: 750px;
+    width: 760px;
+    border-radius: 20px;
+    background-color: #F1F2F8;
+    margin-left: 523px;
+    margin-right: 160px;
+    padding-left: 32px;
+}
+.bForm
+{
+    width: 312px;
+    height: 450px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-top:16px;
+    padding-left: 32px;
+    margin-top: 32px; 
+}
+.bForm input {
+    background-color: #F1F2F8;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.8rem;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    padding-left: 10px;
+}
+
+.bForms label 
+{
+    font-size: 1rem;
+    line-height: 27.24px;
+    color: #000000;
+    padding-top: 16px;
+}
+#searchBtnFake2
+{
+    margin-top: 74px;
+    margin-bottom: 22px;
+    margin-left: 560px;
+    background-color: #083A8D;
+    align-items: center;
+    align-content: center;
+    border-radius: 20px;
+    border: none;
+    width: 140px;
+    height: 40px;
+    font-size: 1rem;
+    font-style: bolder;
+}
+.communitiesSection
+{
+    height: 125px;
+    width: 750px;
+    margin-left: 523px;
+    margin-right: 160px;
+    margin-top: 16px;
+    padding: 16px;
+    align-items: center;
+    background-color: rgba(228,146,115,0.8);
+    border-radius: 10px;
+}
+.communitiesSection p
+{
+    font-size: 1.25rem;
+}
+.communitiesSection a
+{
+    color: #000000;
+    font-weight:bold;
+    font-style: normal;
+}
+.communitiesSection a:hover
+{
+    color:#F2F3F4;
+    text-decoration: none;
+}

@@ -1,0 +1,140 @@
+body {
+    background: #7180AC;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+}
+
+.container {
+    padding: 20px;
+    
+}
+
+.left {
+    width: 50%;
+    padding: 20px;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+.right {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    padding-top: 10%;
+    padding-left: 5%;
+
+}
+
+img {
+    width: 448px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.login {
+    background-color: #F2F3F4;
+    position: absolute;
+    border-radius: 20px;
+    width: 768px;
+    height: 700px;
+    left: 648px;
+    top: 33px;
+}
+
+.loginorsingup {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs input {
+    background-color: rgb(230, 230, 233);
+    height: 55px;
+    width: 545px;
+    border-radius: 20px;
+}
+
+.inputs label {
+    font: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.24px;
+    color: #000000;
+}
+
+.createAccount button {
+    background-color: #083A8D;
+    border: none;
+    color: white;
+    font: Open Sans;
+    margin-left: 39%;
+    margin-top: 5%;
+    padding: 15px 32px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+}
+
+
+.terms {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.loginbuttons button {
+    background-color: #083A8D;
+    border: none;
+    color: white;
+    font: Open Sans;
+    padding: 15px 32px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    
+}
+
+.loginbuttons a :hover {
+    color:#000000;
+}
+
+.button1 {
+    float: left;
+    margin-left: 15%;
+    width: 300px;
+    height: 54px;
+}
+
+.button2 {
+    float: right;
+    margin-left: 5%;
+    width: 300px;
+    height: 54px;
+}
