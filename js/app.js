@@ -6,3 +6,17 @@ function myFunction()
     popup.classList.toggle("show");
 }
 
+var modal = document.getElementById('downloadFake');
+var btn = document.getElementById('downloadBtn')
+
+btn.onclick = function()
+{
+    modal.style.display ='block';
+}
+
+
+
+
+
+
+

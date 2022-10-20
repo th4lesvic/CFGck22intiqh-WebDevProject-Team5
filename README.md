@@ -9,7 +9,7 @@
  
     Having a platform that includes Services and Social options to be part of virtual (and live) communities where the user could feel welcome from day zero. Spaces where you can find networking connections, skill shares, and co-working places. No more awkwardness when you are the new face in the city!
 
- ***This is a demo-static site, there is no backend to support real-live searches. Educational purpose only-does not include commercial, professional or any other for-profit purposes***
+ ***This is a demo-static site, there is no backend to support real-live searches. The site do not store any data. For educational purpose only-does not include commercial, professional or any other for-profit purposes***
 
  ## Creating Digital Nomad Life website
 
@@ -29,11 +29,7 @@
   - Buttons- onclick elements (redirect/links) 
   - Button- go back (web history)
   - Footer- "Team 5" toogle (pop-up)
- 
- ## Runnig the repository
- 
- 
- 
+
  ### What is the CFG course about?
  
  Code First Girls is transforming tech by providing the skills, confidence and inspiration for women to become kick-ass developers, data whizzes and future tech leaders. 

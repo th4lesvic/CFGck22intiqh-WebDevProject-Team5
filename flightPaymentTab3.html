@@ -190,20 +190,32 @@
                     </div>
                 </div>
                 <br>
-                <div class="fakeInvoice">
-                    <img src="./img/downloadInvoice.svg" alt="Invoice">
+                <div class="fakeInvoice" onclick="thankYou()">
+                    <img src="./img/FakeInvoice.svg" alt="Invoice">
+                    <div class="messageModal" id="downloadFake">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Downloaded-fake-</h5>
+                              <button type="button" class="btn-close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p>Thank you for visiting our site! =) <br> <br> Please reload the page to keep exploring the world <br> Visit the Communities section</p>
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                 </div>
-
+                <button id="downloadBtn">Download PDF</button>
             </div>
             <div class="titleCommunities">
-                <h3>While you are aboard: </h3>
+                <h3>While you are aboard visit: </h3>
             </div>
-
             <div class="communitiesSection">
-                
                 <a class="navLink" href="./communities.html" target="_blank"><span class="material-symbols-outlined size-56">diversity_2</span>&nbsp; Communities on Lisbon</a>
-                <a class="navLink" href="./myProfile.html" target="_blank"><span class="material-symbols-outlined size-56">account_circle</span>&nbsp; Profile -write a blog when in Lisbon</a>
-
+                <a class="navLink" href="./myProfile.html" target="_blank"><span class="material-symbols-outlined size-56">account_circle</span>&nbsp; Profile -write a blog</a>
             </div>
         </section>
         <footer class="mainfooter">
